@@ -356,3 +356,8 @@
   [hidden] {
     display: none;
   }
+
+  .error {
+    color: #ff8a82;
+    margin-top: 1rem;
+  }
