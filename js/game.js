@@ -1,6 +1,6 @@
 let imagesCard = ["angularjs", "css3", "git-hub", "git", "html5", "nodejs"];
 let container = $(".container");
-let playerName = localStorage.getItem("nomeJogador");
+let playerName = localStorage.getItem("playerNome");
 let countActiveRotate = 0;
 let countErrors = 0;
 
@@ -105,6 +105,7 @@ let refreshGame = function refresh() {
     
     showCards();
     flipCards("initial");
+    $(".errors").text("Quantidade de erros: " + countErrors);
 }
 
 $(function() {

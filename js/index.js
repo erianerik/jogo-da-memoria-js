@@ -1,6 +1,6 @@
 let nullField = "";
 let inputName = $(".form__input");
-
+localStorage.removeItem("playerNome");
 function htmlErro(mensagem) {
     return `<p class="error">${mensagem}</p>`;
 }

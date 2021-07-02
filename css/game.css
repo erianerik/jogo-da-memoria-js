@@ -60,11 +60,16 @@
     width: 50%;
 }
 
-.refresh {
+.icon {
     width: 1.3rem;
-    margin: 0 1rem;
     cursor: pointer;
     transition: all 1s ease-in-out;
+}
+
+.edit {
+    width: 1.5rem;
+    margin: 0;
+    margin-top: 15px;
 }
 
 .refresh:hover {
