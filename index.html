@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da memória</title>
-</head>
-<body>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
     
+    <!-- Jquery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <main class="content">
+        <h1 class="content__title">Jogo da Memoria</h1>
+
+        <form action="./game.html" class="content__form" method="POST">
+            <fieldset class="form__input-name">
+                <label for="" class="form__label">Digite seu nome: </label>
+                <input type="text" name="nome" id="nome" class="form__input" placeholder="Digite seu nome...">
+            </fieldset>
+
+            <input type="button" value="Jogar" class="form__submit">
+        </form>
+
+    </main>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
