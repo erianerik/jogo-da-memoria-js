@@ -51,6 +51,7 @@
     border: none;
     color: #fff;
     background-color: #005f9d;
+    cursor: pointer;
     animation: scale 1s ease-in-out infinite alternate;
 }
 
