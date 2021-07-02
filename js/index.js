@@ -12,7 +12,7 @@ function validationName() {
     }
     
     inputName.parent().find("p").remove();
-    localStorage.setItem('nomeJogador', inputName.val());
+    localStorage.setItem('playerNome', inputName.val());
     return true;
 }
 

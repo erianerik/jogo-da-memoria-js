@@ -1,0 +1,50 @@
+.win-panel {
+    box-sizing: border-box;
+    width: 35rem;
+    min-width: fit-content;
+    height: 15rem;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #fff;
+    background-color: #005f9d;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    z-index: 0;
+}
+
+.win-panel__message {
+    font-size: 2rem;
+    clear: right;
+}
+
+.win-panel__description, .win-panel__message {
+    margin-top: 1rem;
+}
+
+.win-panel__play-again {
+    box-sizing: border-box;
+    display: inline-block;
+    width: fit-content;
+    height: 3rem;
+    padding: 0 1rem;
+    margin-top: 3rem;
+    line-height: 3rem;
+    border-radius: 1rem;
+    background-color: #29292b;
+}
+
+@keyframes slide-bottom {
+    0% {
+        top: 45%;
+        transform: translate(-50%, -45%);
+        opacity: (0);
+    }
+    100% {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: (1);
+    }
+}
